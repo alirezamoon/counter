@@ -1,7 +1,30 @@
 .Counter {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CounterElements {
+  display: flex;
+  /* margin: 10px; */
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 200px;
+  border-radius: 300px;
+  border: 5px solid #ddd;
+  box-shadow: 0 6px 12px #ccc;
+  /* border-top: 5px solid blue;
+  border-bottom: 5px solid blue; */
+  /* box-sizing: border-box; */
+}
+
+.Number {
+  font-size: 68px;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+  width: 200px;
 }

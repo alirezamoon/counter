@@ -1,43 +1,51 @@
 .Button {
-  background-color: #fff;
-  border: 2px solid transparent;
-  border-radius: 50px;
-  color: white;
+  background-color: transparent;
+  /* border: 5px solid transparent; */
+  border: none;
+  padding: 0;
+  border-radius: none ;
+  color: black;
   outline: none;
   cursor: pointer;
-  font-weight: bold;
+  /* font-weight: bold; */
   box-sizing: border-box;
-  height: 42px;
-  width: 42px;
+  height: 200px;
+  width: 200px;
   text-align: center;
-  font-size: 24px;
-}
-
-.Button:active {
-  position: relative;
-  top: 2px;
+  font-size: 68px;
+  font-family: cursive;
+  box-sizing: border-box;
 }
 
 .success {
   background-color: #4caf50;
 }
-.success:hover,
-.success:focus {
-  border-color: #4caf50;
+.success:active{
+  background-color: #19971e;
 }
 
 .danger {
-    background-color: #f44336;
+  background-color: #f44336;
 }
-.danger:hover,
-.danger:focus {
-  border-color: #f44336;
+.danger:active{
+  background-color: #b91a0e;
 }
 
 .warning {
   color: orange;
-}
-.warning:hover,
+} 
+/* .warning:hover,
 .warning:focus {
   border-color: orange;
+} */
+
+
+.right {
+  border-radius: 0 100px 100px 0;
+  border-left: 5px solid #ddd;
+}
+
+.left {
+  border-radius: 100px 0 0 100px;
+  border-right: 5px solid #ddd;
 }
